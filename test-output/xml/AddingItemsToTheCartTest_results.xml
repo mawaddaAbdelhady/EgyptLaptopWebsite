@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ChromeTest"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="10.673">
+    <properties></properties>
+
+
+
+            <testcase
+                name="addLaptopToCart"
+                time="4.131"
+                classname="AddingItemsToTheCartTest">
+            </testcase>
+            <testcase
+                name="addMultipleItemsToCart"
+                time="6.542"
+                classname="AddingItemsToTheCartTest">
+            </testcase>
+</testsuite>

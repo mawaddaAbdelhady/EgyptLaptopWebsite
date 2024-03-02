@@ -1,0 +1,43 @@
+<suite name="Test EgyptLaptop WebSite" verbose="1">
+
+    <test name="ChromeTest">
+        <parameter name="email" value="Mawadda982222@test.com"/>
+        <parameter name="password" value="test12345678"/>
+        <parameter name="browser" value="Chrome"/>
+        <classes>
+            <class name="SearchTest"/>
+            <class name="RegistrationTest"/>
+            <class name="AddingItemsToTheCartTest"/>
+            <class name="RemovingItemsFromCartTest"/>
+            <class name="CompletingPurchasesTest"/>
+        </classes>
+    </test>
+    <test name="FireFoxTest">
+        <parameter name="email" value="Mawadda2111111@test.com"/>
+        <parameter name="password" value="test12345678"/>
+        <parameter name="browser" value="FireFox"/>
+        <classes>
+            <class name="SearchTest"/>
+            <class name="RegistrationTest"/>
+            <class name="AddingItemsToTheCartTest"/>
+            <class name="RemovingItemsFromCartTest"/>
+            <class name="CompletingPurchasesTest"/>
+        </classes>
+    </test>
+    <test name="EdgeTest">
+        <parameter name="email" value="Mawadda29991@test.com"/>
+        <parameter name="password" value="test12345678"/>
+        <parameter name="browser" value="Edge"/>
+        <classes>
+            <class name="SearchTest"/>
+            <class name="RegistrationTest"/>
+            <class name="AddingItemsToTheCartTest"/>
+            <class name="RemovingItemsFromCartTest"/>
+            <class name="CompletingPurchasesTest"/>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    </listeners>
+</suite>
+
